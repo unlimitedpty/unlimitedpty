@@ -1,18 +1,15 @@
 /* Fonts */
-
 @font-face {
    font-family: "BebasNeue-Regular";
    src: url('fonts/BebasNeue-Regular.otf');
 }
 
 @font-face{
-    font-family: "Lato-Regular";
-    src: url('fonts/Lato-Regular.ttf');
+    font-family: "Damias_Hand";
+    src: url('fonts/Damias_Hand.ttf');
 }
-@font-face{
-    font-family: "Lato-Hairline";
-    src: url('fonts/Lato-Hairline.ttf');
-}
+
+/*Roboto: font-family: 'Roboto', sans-serif;*/
 
 /* HEADER - NAVBAR */
 header {
@@ -82,7 +79,97 @@ header {
 /*HEADER - NAVBAR END*/
 
 /*BANNER*/
+#mainbanner {
+    position: relative;
+    top: 0;
+    margin: 1vh 0;
+    overflow: hidden;
+}
+#unlimitedpty {
+    position: absolute;
+    top: 35%;
+    z-index: 1;
+}
+#logotipo {
+    position: relative;
+    top: 0;
+    width: 30vw;
+    min-width: 300px;
+    font-family: "Damias_Hand";
+    font-size: 18px;
+    color: black;
+}
+#kidsimg {
+    width: 30vw;
+    min-width: 400px;
+    box-shadow: 0 0 100px 60px white inset;
+    float: right;
+}
+#kidsimg > img {
+    position: relative;
+    top: 0;
+    width: 30vw;
+    min-width: 400px;
+    z-index: -1;
+}
 /*BANNER END*/
 
 /*SERVICIOS*/
+.servicios {
+    margin: 3vh 0;
+}
+.servtitle {
+    margin: 4vh 0;
+    font-family: "Damias_Hand" !important;
+}
+.btn-servicio {
+    display: block;
+    padding: 5px;
+}
+.servicon {
+    display: block;
+}
+.servicon img {
+    height: 110px;
+    width: 110px;
+}
+.servname {
+    font-family: "Damias_Hand";
+    font-size: 18px;
+    color: #c4c4c4;
+}
+.btn-servicio:hover {
+    text-decoration: none !important;
+}
+.btn-servicio:hover .servname {
+    color: red;
+}
+
 /*SERVICIOS END*/
+
+/*FOOTER*/
+footer {
+    text-align: center;
+}
+.upfoot {
+    background: #bcbcbc;
+    font-family: 'Roboto', sans-serif
+    font-size: 2vh;
+    color: #ffffff;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.contries {
+    font-size: 16px;
+}
+.contries div {
+    margin-top: 1vh;
+}
+.botfoot {
+    background: #b2b2b2;
+    font-family: 'Roboto', sans-serif
+    color: #ffffff;
+    font-size: 80%;
+    line-height: 250%;
+}
+/*FOOTER END*/
