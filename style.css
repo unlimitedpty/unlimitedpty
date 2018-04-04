@@ -9,6 +9,16 @@
     src: url('fonts/Damias_Hand.ttf');
 }
 
+@font-face{
+    font-family: "Lost";
+    src: url('fonts/Lost.ttf');
+}
+
+@font-face{
+    font-family: "BalooThambi-Regular";
+    src: url('fonts/BalooThambi-Regular.ttf');
+}
+
 /*Roboto: font-family: 'Roboto', sans-serif;*/
 
 /* HEADER - NAVBAR */
@@ -30,6 +40,7 @@ header {
     display: flex;
     -webkit-padding-start: 0;
     padding: 2% 0;
+    margin-bottom: 0;
     justify-content: center;
 }
 .icons li
@@ -56,15 +67,14 @@ header {
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-    #logo{
+    #logo {
         width: 10vw;
     }
-    .navbar-brand{
-        margin-right: 2rem !important;
+    .navbar-nav {
+        padding-left: 15% !important;
     }
-    .icons{
-        padding-left: 65%;
-        padding-top: 6%;
+    .icons {
+        padding-left: 20%;
     }
 }
 /* Extra large devices (large desktops, 1200px and up)*/
@@ -89,15 +99,16 @@ header {
     position: absolute;
     top: 35%;
     z-index: 1;
+    font-family: "BalooThambi-Regular";
+    font-size: 18px;
+    color: black;
 }
 #logotipo {
     position: relative;
     top: 0;
     width: 30vw;
     min-width: 300px;
-    font-family: "Damias_Hand";
-    font-size: 18px;
-    color: black;
+    
 }
 #kidsimg {
     width: 30vw;
@@ -120,7 +131,7 @@ header {
 }
 .servtitle {
     margin: 4vh 0;
-    font-family: "Damias_Hand" !important;
+    font-family: "Lost" !important;
 }
 .btn-servicio {
     display: block;
@@ -134,9 +145,9 @@ header {
     width: 110px;
 }
 .servname {
-    font-family: "Damias_Hand";
+    font-family: "Lost";
     font-size: 18px;
-    color: #c4c4c4;
+    color: #000;
 }
 .btn-servicio:hover {
     text-decoration: none !important;
@@ -153,7 +164,7 @@ footer {
 }
 .upfoot {
     background: #bcbcbc;
-    font-family: 'Roboto', sans-serif
+    font-family: 'BalooThambi-Regular', sans-serif;
     font-size: 2vh;
     color: #ffffff;
     padding-top: 2vh;
@@ -167,7 +178,7 @@ footer {
 }
 .botfoot {
     background: #b2b2b2;
-    font-family: 'Roboto', sans-serif
+    font-family: 'BalooThambi-Regular', sans-serif;
     color: #ffffff;
     font-size: 80%;
     line-height: 250%;
