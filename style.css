@@ -92,6 +92,8 @@ header {
 #mainbanner {
     position: relative;
     top: 0;
+    min-height: 267px;
+    height: 35%;
     margin: 1vh 0;
     overflow: hidden;
 }
