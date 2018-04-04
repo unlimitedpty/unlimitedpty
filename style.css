@@ -114,6 +114,7 @@ header {
 #kidsimg {
     width: 30vw;
     min-width: 400px;
+    min-height: 267px;
     box-shadow: 0 0 100px 60px white inset;
     float: right;
 }
