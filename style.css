@@ -71,10 +71,10 @@ header {
         width: 10vw;
     }
     .navbar-nav {
-        padding-left: 15% !important;
+        padding-left: 10% !important;
     }
     .icons {
-        padding-left: 20%;
+        padding-left: 15%;
     }
 }
 /* Extra large devices (large desktops, 1200px and up)*/
@@ -102,7 +102,7 @@ header {
     z-index: 1;
     font-family: "BalooThambi-Regular";
     font-size: 18px;
-    color: black;
+    color: purple;
 }
 #logotipo {
     position: relative;
@@ -131,6 +131,9 @@ header {
 .servicios {
     margin: 3vh 0;
 }
+.servicios a:focus{
+    outline: none !important;
+}
 .servtitle {
     margin: 4vh 0;
     font-family: "Lost" !important;
@@ -157,8 +160,48 @@ header {
 .btn-servicio:hover .servname {
     color: red;
 }
+/*MODAL*/
+.modal-header {
+    color: red;
+    padding-left: 17% !important;
+    font-family: 'BalooThambi-Regular', sans-serif;
+}
+.modal-body {
+    font-family: 'BalooThambi-Regular', sans-serif;
+    line-height: 150%;
+}
 
 /*SERVICIOS END*/
+
+/*QUIENES SOMOS*/
+#unlimitedpty-us {
+    margin-top: 5%;
+    font-family: "BalooThambi-Regular";
+    font-size: 18px;
+    color: purple;
+}
+.ourinfo {
+    font-family: "Lost" !important;
+    line-height: 250%;
+}
+.ourinfo h1{
+    font-family: "Lost" !important;
+    color: navy;
+    margin: 20px;
+}
+
+/*CONTACTANOS*/
+.contactus {
+    font-family: "BalooThambi-Regular";
+}
+.contactus h1{
+    font-family: "Lost" !important;
+    color: blue;
+    margin: 20px;
+}
+.contactus span{
+    color: red;
+}
 
 /*FOOTER*/
 footer {
