@@ -102,21 +102,21 @@ header {
     z-index: 1;
     font-family: "BalooThambi-Regular";
     font-size: 18px;
-    color: purple;
+    color: #EA418B;
+    display: none;
 }
 #logotipo {
     position: relative;
     top: 0;
     width: 30vw;
     min-width: 300px;
-    
 }
 #kidsimg {
     width: 30vw;
     min-width: 400px;
     min-height: 267px;
     box-shadow: 0 0 100px 60px white inset;
-    float: right;
+    margin-left: 20%;
 }
 #kidsimg > img {
     position: relative;
@@ -124,6 +124,16 @@ header {
     width: 30vw;
     min-width: 400px;
     z-index: -1;
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    #unlimitedpty {
+        display: inline;
+    }
+    #kidsimg {
+        float: right;
+        margin: 0;
+    }
 }
 /*BANNER END*/
 
@@ -137,6 +147,7 @@ header {
 .servtitle {
     margin: 4vh 0;
     font-family: "Lost" !important;
+    text-shadow: 2px 1px #ccc
 }
 .btn-servicio {
     display: block;
@@ -178,29 +189,37 @@ header {
     margin-top: 5%;
     font-family: "BalooThambi-Regular";
     font-size: 18px;
-    color: purple;
+    color: #EA418B;
 }
 .ourinfo {
-    font-family: "Lost" !important;
     line-height: 250%;
+    color: #000;
+    text-shadow: 2px 1px #ccc;
 }
 .ourinfo h1{
     font-family: "Lost" !important;
-    color: navy;
+    color: #0cb2c3;
     margin: 20px;
+    text-shadow: 3px 3px #ccc;
 }
 
 /*CONTACTANOS*/
 .contactus {
     font-family: "BalooThambi-Regular";
 }
-.contactus h1{
-    font-family: "Lost" !important;
-    color: blue;
-    margin: 20px;
+.contactus h1 {
+    color: #ed474a;
+    text-shadow: 2px 3px #ccc;
+    margin: 0 0 20px 0;
 }
-.contactus span{
-    color: red;
+.contactus h2 {
+    font-family: "Lost" !important;
+    color: #7a53c3 !important;
+    text-shadow: 2px 3px #ccc;
+    margin: 0 0 20px 0;
+}
+.contactus span {
+    color: #fba100;
 }
 
 /*FOOTER*/
@@ -225,7 +244,7 @@ footer {
     background: #b2b2b2;
     font-family: 'BalooThambi-Regular', sans-serif;
     color: #ffffff;
-    font-size: 80%;
+    font-size: 70%;
     line-height: 250%;
 }
 /*FOOTER END*/
