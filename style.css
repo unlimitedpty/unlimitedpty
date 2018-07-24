@@ -173,13 +173,13 @@ header {
 }
 /*MODAL*/
 .modal-header {
-    color: red;
-    padding-left: 17% !important;
+    /*color: red;*/
+    /*padding-left: 10% !important;*/
     font-family: 'BalooThambi-Regular', sans-serif;
 }
 .modal-body {
-    font-family: 'BalooThambi-Regular', sans-serif;
-    line-height: 150%;
+    /*font-family: 'Roboto', sans-serif;*/
+    line-height: 200%;
 }
 
 /*SERVICIOS END*/
@@ -194,13 +194,12 @@ header {
 .ourinfo {
     line-height: 250%;
     color: #000;
-    text-shadow: 2px 1px #ccc;
+    /*text-shadow: 2px 1px #ccc;*/
 }
 .ourinfo h1{
     font-family: "Lost" !important;
     color: #0cb2c3;
-    margin: 20px;
-    text-shadow: 3px 3px #ccc;
+    /*text-shadow: 3px 3px #ccc;*/
 }
 
 /*CONTACTANOS*/
